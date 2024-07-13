@@ -1,0 +1,36 @@
+import React from "react";
+import { GiTakeMyMoney } from "react-icons/gi";
+import { Button } from "../shared/Button";
+import { FaDollarSign } from "react-icons/fa";
+
+export const Copy = () => {
+  return (
+    <>
+      <div className="mb-1.5 rounded-full bg-zinc-600">
+        {/* <Link
+          href="https://www.producthunt.com/"
+          target="_blank"
+          rel="nofollow"
+          className="flex origin-top-left items-center rounded-full border border-zinc-900 bg-white p-0.5 text-sm transition-transform hover:-rotate-2"
+        >
+          <span className="rounded-full bg-[#FF6154] px-2 py-0.5 font-medium text-white">
+            HEY!
+          </span>
+          <span className="ml-1.5 mr-1 inline-block">
+            We're live on Product Hunt!
+          </span>
+          <FiArrowUpRight className="mr-2 inline-block" />
+        </Link> */}
+      </div>
+      <h1 className="max-w-4xl text-center text-4xl font-black leading-[1.15] md:text-7xl md:leading-[1.15]">
+        Welcome to Illustricity Studios
+      </h1>
+      <p className="mx-auto my-4 max-w-3xl text-center text-base leading-relaxed md:my-6 md:text-2xl md:leading-relaxed">
+      We specialize in comprehensive social media management sclutions designed to enhance your Inand's online presence and dive meaningful engagement
+      </p>
+      <Button className={"cursor-pointer"}>
+        <span className="font-bold flex gap-2 items-center"> <FaDollarSign className="text-lg"/> Get Quatation </span>
+      </Button>
+    </>
+  );
+};
