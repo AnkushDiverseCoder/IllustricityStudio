@@ -40,12 +40,12 @@ export default function Home() {
             <Hero />
           </ExpandableNavBar>
           <Logos />
-          <div className="space-y-36 bg-[#DEDCD3] pb-24 pt-24 md:pt-32">
+          <div className="space-y-36 bg-[#DEDCD3] pb-24 pt-24 md:pt-16">
             <FeatureToggles />
             <Stats />
             <Supports />
             <BenefitsGrid />
-            <Pricing />
+            {/* <Pricing /> */}
             <BlogCarousel />
           </div>
           <EmailCapture />

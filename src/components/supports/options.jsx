@@ -87,7 +87,7 @@ export const OPTIONS = [
       <Testimonial
         imgSrc="/services/dg.jpg"
         name="Digital Marketing"
-        content="Illustricity boosts your brand with tailored digital marketing services, including SEO, social media management, content creation, and performance analytics. Elevate your online presence and achieve growth with us!"
+        content="We provide innovative digital marketing services, including SEO, social media management, and content creation. Did you know our team has won awards for their creative campaign designs?"
       />
     ),
   },
@@ -108,7 +108,7 @@ export const OPTIONS = [
         imgSrc="/services/smm.jpg"
         name="Social Media Management"
         title="Writer"
-        content="Illustricity enhances your brand with creative social media management, engaging content, and performance analysis, ensuring your online presence shines and drives growth. Electrify your social media with us!"
+        content="Illustricity will help you increase engagement, conversions, and brand awareness. Fun fact: Did you know that the first tweet was sent in 2006 by Jack Dorsey, the founder of Twitter?"
       />
     ),
   },
@@ -120,7 +120,7 @@ export const OPTIONS = [
         name="Graphic Designing"
         title="Author"
         company="Books About Things"
-        content="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis qui fuga, deserunt doloribus, vero autem libero sed dolorum nostrum quidem in soluta magni eos excepturi."
+        content="Hi there! Illustricity is here to bring your brand to life with custom graphic design services, from logos to brochures."
       />
     ),
   },
@@ -160,7 +160,7 @@ export const OPTIONS = [
       <Testimonial
         imgSrc="/services/pp.jpg"
         name="Product Photography"
-        content="Illustricity offers exceptional product photography services, capturing stunning visuals that highlight your products’ best features. Enhance your brand’s appeal and drive sales with our professional photography."
+        content="Our team of experts captures high-quality images that drive sales & tells stories, Did you know our photographers can even create 360-degree views?"
       />
     ),
   },

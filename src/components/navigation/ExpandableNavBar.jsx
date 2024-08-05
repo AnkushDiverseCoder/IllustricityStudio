@@ -3,6 +3,8 @@ import Link from "next/link";
 import { useState } from "react";
 import { FiArrowRight, FiMenu } from "react-icons/fi";
 import { Button } from "../shared/Button";
+import { BiLogoInstagramAlt } from "react-icons/bi";
+import { IoLogoWhatsapp } from "react-icons/io";
 import { Announcement } from "./Announcement";
 
 export const ExpandableNavBar = ({ children }) => {
@@ -69,6 +71,12 @@ const NavLink = ({ text }) => {
 const NavRight = () => {
   return (
     <div className="flex items-center gap-4">
+      <Link href="https://www.instagram.com/illustricity.studios?igsh=cDNiNjV6aXQ0aG80" target="_blank">
+        <BiLogoInstagramAlt className="text-3xl" />
+      </Link>
+      <Link href="https://api.whatsapp.com/send/?phone=%2B917795244911&text&type=phone_number&app_absent=0" target="_blank">
+        <IoLogoWhatsapp className="text-3xl" />
+      </Link>
       <Link href="/Download.pdf" download="Illustricity_Brochure" target="_blank">
         <Button className="hidden md:block relative" intent="secondary" size="small">
           <span className="font-bold">Download Brochure </span>
@@ -78,20 +86,6 @@ const NavRight = () => {
           </span>
         </Button>
       </Link>
-      {/* <motion.button
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
-        className="px-4 py-2 bg-gradient-to-r from-violet-600 to-indigo-600 bg-clip-text text-transparent font-medium rounded-md whitespace-nowrap"
-      >
-        Sign in
-      </motion.button>
-      <motion.button
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
-        className="px-4 py-2 bg-gradient-to-r from-violet-600 to-indigo-600 text-white font-medium rounded-md whitespace-nowrap"
-      >
-        Sign up
-      </motion.button> */}
     </div>
   );
 };

@@ -27,11 +27,6 @@ export const BenefitsGrid = () => {
       <IntegrationsBlock />
       <CollaborateBlock />
       <HighlighBlocks />
-      <div className="col-span-3 mt-6 flex justify-center">
-        <Button intent="outline">
-          <span className="font-bold">Get started - </span> no CC required
-        </Button>
-      </div>
     </motion.section>
   );
 };
